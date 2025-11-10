@@ -9,12 +9,12 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Generate constant voltage reference
+The presented circuit is a bandgap voltage reference based on the Beta amplifier topology, which incorporates an operational transconductance amplifier (OTA) — in this case, a folded cascode configuration. The typical output voltage is approximately 1.23 V
 
 ## How to test
 
-Multimeter
+To test the circuit, both output nodes (Vg and Vref) must be measured. The first node includes a buffer implemented using a replica of the internal folded cascode, while the second node is connected directly.
 
 ## External hardware
 
-None
+DC voltage source (VDD)
