@@ -367,20 +367,15 @@ MACRO tt_um_Onchip_BandGap
         RECT 74.830 224.760 75.130 225.760 ;
     END
   END uo_out[7]
-  PIN VSS
-    ANTENNAGATEAREA 240.560089 ;
-    ANTENNADIFFAREA 457.036774 ;
-    PORT
-      LAYER met4 ;
-        RECT 30.000 5.000 35.000 220.760 ;
-    END
-    PORT
-      LAYER met4 ;
-        RECT 50.000 5.000 55.000 220.760 ;
-    END
+  PIN VGND
+    USE GROUND ;
     PORT
       LAYER met4 ;
         RECT 110.000 5.000 115.000 220.760 ;
+    END
+    PORT
+      LAYER met4 ;
+        RECT 90.000 5.000 95.000 220.760 ;
     END
     PORT
       LAYER met4 ;
@@ -388,25 +383,27 @@ MACRO tt_um_Onchip_BandGap
     END
     PORT
       LAYER met4 ;
-        RECT 90.000 5.000 95.000 220.760 ;
+        RECT 50.000 5.000 55.000 220.760 ;
     END
-  END VSS
-  PIN VDPWR
     PORT
       LAYER met4 ;
-        RECT 20.000 5.000 25.000 220.760 ;
+        RECT 30.000 5.000 35.000 220.760 ;
     END
-  END VDPWR
-  PIN VDD
+    PORT
+      LAYER met4 ;
+        RECT 10.000 5.000 15.000 220.760 ;
+    END
+  END VGND
+  PIN VDPWR
     ANTENNAGATEAREA 514.519958 ;
     ANTENNADIFFAREA 510.403992 ;
     PORT
       LAYER met4 ;
-        RECT 80.000 5.000 85.000 220.760 ;
+        RECT 100.000 5.000 105.000 220.760 ;
     END
     PORT
       LAYER met4 ;
-        RECT 40.000 5.000 45.000 220.760 ;
+        RECT 80.000 5.000 85.000 220.760 ;
     END
     PORT
       LAYER met4 ;
@@ -414,16 +411,13 @@ MACRO tt_um_Onchip_BandGap
     END
     PORT
       LAYER met4 ;
-        RECT 100.000 5.000 105.000 220.760 ;
+        RECT 40.000 5.000 45.000 220.760 ;
     END
-  END VDD
-  PIN VGND
-    USE GROUND ;
     PORT
       LAYER met4 ;
-        RECT 10.000 5.000 15.000 220.760 ;
+        RECT 20.000 5.000 25.000 220.760 ;
     END
-  END VGND
+  END VDPWR
   OBS
       LAYER nwell ;
         RECT 36.540 34.560 111.520 202.935 ;
