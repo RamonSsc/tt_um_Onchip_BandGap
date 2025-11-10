@@ -1,9 +1,9 @@
 # Tiny Tapeout project information
 project:
-  title:        "Bandgap"      # Project title
-  author:       "onchip jeison"      # Your name
-  discord:      "jeison"      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
-  description:  "banda gap onchip 1.2V"      # One line description of what your project does
+  title:        "OnChip - Bandgap Reference"      # Project title
+  author:       "Jeison Acevedo & Ramon Sarmiento"      # Your name
+  discord:      "zhord0326"      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
+  description:  "BandGap Voltage Reference 1.23V"      # One line description of what your project does
   language:     "Analog" # other examples include Verilog, Amaranth, VHDL, etc
   clock_hz:     0       # Clock frequency in Hz (or 0 if not applicable)
 
